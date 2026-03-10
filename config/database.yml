@@ -23,7 +23,7 @@ test:
 # TODO: replace `my_app` below with this application's name
 production:
   <<: *default
-  adapter: postgresql#   database: my_app_production
+  adapter: postgresql
   database: tacogram_production
   username: tacogram
   password: <%= ENV["TACOGRAM_DATABASE_PASSWORD"] %>
